@@ -1,0 +1,9 @@
+[project]
+name = "taxi-trip-analytics"
+version = "0.1.0"
+description = "Big Data pipelines for the NYC taxi trips dataset: load, transform, analyze."
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
